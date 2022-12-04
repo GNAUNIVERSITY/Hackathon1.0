@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 50px;
+}
+#header h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+#header .brand-name{
+    color: #3498db;
+}
+#header h5{
+    color: #484848;
+    font-size: 24px;
+}
+.navbar {
+    background-color: #fff !important;
+
+}
+.navbar-brand {
+    font-size: 1.9rem !important;
+    color: #565387;
+
+}
+.navbar a {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.menu_active {
+    font-weight: bold;
+    border-bottom: 1px solid #565387 ;
+}
+.navbar a:hover {
+    color: #3498db !important;
+}
+.style_me {
+    margin-left: 800px;
+}
+.btn-get-started{
+    background-color: skyblue;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 50px;
+    text-decoration: none;
+    border-style:groove;
+    border-color: black;
+    color: blue; 
+}
+.btn-get-started:hover{
+    background-color: #fff;
+    color: black;
+}
+.header-img{
+    text-align: right;
+}
+.img-fluid-animated{
+    margin-left: 150px;
+    height: 350px; 
+}
+.text-center{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.card-img-top{
+    height: 400px;
+    width: 396px;
+}
+.card-img-top:hover{
+    box-shadow: 0px 0px 15px 5px gray;
+}
+.btn-primary {
+    background-color: skyblue;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    border-style:groove;
+    border-color: black;
+    color: blue; 
+}
+#navbar {
+    background-color: skyblue;
+}
+
+#navbar ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    font-size: larger;
+    font-weight: bold;
+    padding: 38px 0px;
+    padding-right: 35px;
+    margin-left: 40px;
+}
+
+#header .img-fluid-animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-brand{
+        font-size: 1.5rem !important;
+    }
+.menu_active {
+    font-weight: bold;
+    border-bottom: none;
+}
+}
+body{
+    border: 1px solid red;
+}
+.social{
+    margin: 0px;
+    margin-top: 25px;
+    padding: 0px;
+}
+.intro{
+    justify-content: center;
+    text-align: center;
+}
+.social h2{
+    background-color: red;
+
+
+}
+.social p{
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.social h4,h5{
+    margin-left: 4px;
+}
+.ngo h5{
+    background-color: #ccc; 
+}
+.ngo p{
+    margin-left: 4px;
+}
+#student{
+    height: 185px;
+    width: 275px;
+    /* margin-bottom: 20px */
+
+
+}
+.picture a{
+    /* text-decoration: none; */
+}
+.picture img{
+    /* text-align: justify; */
+}
+marquee{
+    background-color:yellow;
+    color: black;
+}
+
+/* .slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  } */
+
+  .welfare h1{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+.welfare p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.picture{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.top{
+    margin-top: 55px;
+    margin-left: 90px;
+}
+.down{
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+.btn {
+    margin-left: 90px;
+    margin-bottom: 90px;
+}
+.welfare{
+    margin-bottom: 130px;
+}
+/* .mytag{
+    margin-top: 120px;
+} */
