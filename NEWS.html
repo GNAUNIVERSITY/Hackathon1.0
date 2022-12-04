@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* background: linear-gradient(rgba(155,22,60,0.8), rgba(188, 182, 12, 0.3))); */
+            background-color: cornflowerblue;
+        }
+        .consultant{
+            border: 8px groove salmon;
+            /* border-radius: 6px; */
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin-top: 210px;
+            margin-left: 400px;
+            margin-right: 400px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            background-color: aquamarine;
+
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="consultant">
+            <h1>Consultance</h1>
+           Select Doctor:  <select name="" id="">
+                <option value="">Dr. Mamta Kapoor</option>
+                <option value="">Dr. Shilpa Sharma</option>
+                <option value="">Dr. Prabal Gupta</option>
+                <option value="">Dr. Divya Thakur</option>
+                <option value="">Dr. Navdeep Saini</option>
+            </select><br><br>
+            Symptom: <input type="text" placeholder="Enter your symptom" class="symptom" required><br><br>
+            time Slot: <select name="" id="">
+                <option value="">11am-12:30pm</option>
+                <option value="">1:30pm-3pm</option>
+                <option value="">4pm-6:30pm</option>
+                <option value="">7:30pm-9pm</option>
+            </select><br><br>
+            <input type="submit" name="" id="" value="submit" onclick="alert('yor slot has been booked')">
+        </div>
+    </center>
+</body>
+
+</html>
