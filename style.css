@@ -1,0 +1,57 @@
+.logo{
+    height: 130px !important;
+    width: 120px !important;
+}
+/* .custom-car{
+    max-height: 300px;
+} */
+.left{
+    width:49%;
+    float: left;
+    /* justify-content: center; */
+    /* margin: auto; */
+    text-align: center;
+    
+}
+.right{
+    width:49%;
+    float: right;
+    /* justify-content: center; */
+    /* margin: auto; */
+    text-align: center;
+}
+.flex-box{
+    display: flex;
+}
+.sec-1{
+    min-height: 550px;
+}
+.card-img{
+    width:8rem;
+    margin:auto;
+}
+.margin-box{
+    padding: 20px 20px 20px 20px;
+}
+.left-max{
+    width:69%;
+    float:left;
+    min-height:20rem;
+}
+.right-low{
+    width:29%;
+    float:right;
+}
+.right-max{
+    width:69%;
+    float:right;
+    min-height:20rem;
+}
+.left-low{
+    width:29%;
+    float:left;
+}
+/* .card img{
+    border-radius:20px;
+    box-shadow: 2px 2px;
+} */
