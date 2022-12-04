@@ -1,0 +1,225 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+em {
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1rem;
+}
+
+#title {
+    /* background-color: #ff4c68; */
+    color: #fff;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/istockphoto-855470536-612x612.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 8rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-item {
+    padding: 0 16px;
+}
+
+.nav-link {
+
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.2rem;
+}
+
+.navbar-nav {
+    padding-left: 450px;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+/* downloads-buttons */
+
+.download-buttons {
+    margin: 5% 3% 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* title-image */
+
+.title-image {
+    width: 53%;
+    transform: rotate(25deg);
+}
+
+/* courses */
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    }
+    h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    p{
+        color: #777;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+    }
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .course-col{
+        flex-basis: 31%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+
+.course-col:hover{
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+    }
+
+    .course-col-2{
+        flex-basis: 48%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    
+    }
+
+    .course-col-2:hover{
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+    }
+
+    .service-img{
+        border-radius: 100%;
+    }
+    h3{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+
+/* testimonial */
+
+#testimonials {
+    background-color: #393E46;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    margin: 40px;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/*------call to action---*/
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 0 ;
+}
+.cta h1{
+    color:#fff;
+    margin-top: 40px;
+    padding: 0;
+}
+
+
+
+/*-----call to action-----*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px o;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+
+#footer {
+    
+    background-color: #fff3f3;
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+

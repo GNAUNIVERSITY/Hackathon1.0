@@ -1,0 +1,215 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+em {
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1rem;
+}
+
+#title {
+    /* background-color: #ff4c68; */
+    color: #fff;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/women-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 8rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-item {
+    padding: 0 16px;
+}
+
+.nav-link {
+
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.2rem;
+}
+
+.navbar-nav {
+    padding-left: 450px;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+/* downloads-buttons */
+
+.download-buttons {
+    margin: 5% 3% 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* title-image */
+
+.title-image {
+    width: 53%;
+    transform: rotate(25deg);
+}
+
+
+/*----work----*/
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 28%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0%;
+    transition: 0.5s; 
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* .layer p{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0%;
+    transition: 0.5s;
+}
+.layer:hover p{
+    bottom: 49%;
+    opacity: 1;
+} */
+
+
+
+
+
+
+
+
+
+/*------call to action---*/
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/women-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 0 ;
+}
+.cta h1{
+    color:#fff;
+    margin-top: 40px;
+    padding: 0;
+}
+
+
+
+/*-----call to action-----*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px o;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+
+#footer {
+    
+    background-color: #fff3f3;
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
