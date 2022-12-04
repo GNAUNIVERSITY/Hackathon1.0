@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main .header{
+    width: 100vw;
+    height: 30px;
+    margin: 10px;
+}
+
+.main .header a{
+    margin: 15px 10px;
+    text-decoration: none;
+    color: #3498DB;
+    padding: 5px;
+    border-bottom: 0.5px solid #3498DB;
+    overflow: hidden;
+    font-size: 17px;
+}
+
+.main .header a:hover{
+    background-color: #3498DB;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.body{
+    margin: 0px;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+}
+
+#searchbar{
+    width: 50vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* text-transform: uppercase; */
+}
+
+#searchbar, #search{
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+}
+
+#search{
+    width: 15vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    background-color: #3498DB;
+}
+
+#search:hover{
+    transition: 0.2s;
+    background-color: #0b91eb;
+}
+
+#details{
+    width: 100vw;
+    height: calc(100vh - 230px);
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.section{
+    width: 50vw;
+    height: calc(100vh - 350px);
+    margin: 40px;
+    box-shadow: 4px 4px 10px grey,
+                -4px -4px 10px grey;
+    border-radius: 10px;
+}
+
+.section h1{
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+.section h1:hover{
+    color: #0b91eb;
+    border-bottom: black;
+}
+
+.section ul li{
+    position: relative;
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+#contact{
+    width: 100vw;
+    height: 30vh;
+    background-color: rebeccapurple;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer{
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
