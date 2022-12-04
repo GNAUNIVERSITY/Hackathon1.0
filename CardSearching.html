@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Card Searching in Bootstrap & JS</title>
+
+</head>
+<style>
+    .body {
+        background-color: rgb(28, 180, 17);
+    }
+    
+    .card {
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        box-shadow: 0px 0px 6px -4px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+    
+    .card:hover {
+        box-shadow: 0px 0px 51px -36px rgba(0, 0, 0, 1);
+    }
+    
+    .navbar ul {
+        list-style: none;
+        padding-top: 6px;
+    }
+    
+    .navbar ul li {
+        background: none;
+        border: 2px solid rgba(59, 233, 10, 0.258);
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        float: right;
+        position: relative;
+        line-height: 35px;
+        border-radius: 10px;
+        padding-top: 0px;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: rgb(3, 2, 2);
+        font-size: 13px;
+        display: block;
+        border-radius: 10px;
+    }
+    
+    .navbar ul li a:hover {
+        background-color: none;
+        color: rgb(26, 255, 0);
+        border-radius: 10px;
+    }
+    
+    .navbar ul ul {
+        display: none;
+        font-size: 18px;
+        position: absolute;
+    }
+</style>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>
+                <a href="bot.html"> AI Assistant</a>
+            </li>
+            <li>
+                <a href="map.html">Map</a>
+            </li>
+
+            <li>
+                <a href="index.html">Detection </a>
+            </li>
+            <li>
+                <a href="Consumer.html">Consumer</a>
+            </li>
+            <li>
+                <a href="CardSearching.html">Farmer</a>
+            </li>
+
+            <div id="google_translate_element"></div>
+            <script src="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkVDRHcwaWxRYXV3cGtiZ2tSOGl6UU1RT0xqZ3xBQ3Jtc0tsZGxRcEc5WURVQ243VXhIRC1fV0NDSExieEpITmlFaFRlay02X0ZJejZpRXkzS0V6djRKX1NyaVFNOXk2Tll3TEdtV3ZncGtNamJlSkdxQlNfdmpQdFRMTHdpV3l3UjlJaUN4eWFvcVdLQlhaem5ONA&q=https%3A%2F%2Ftranslate.google.com%2Ftranslate_a%2Felement.js%3Fcb%3DgoogleTranslateElementInit&v=vXZvAdS5tSM"></script>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({
+                            pageLanguage: 'en'
+                        },
+                        'google_translate_element'
+                    );
+                }
+            </script>
+
+
+
+
+
+            <h2 class="text-center mt-2">Product Searching </h2>
+
+            <input type="text" class="form-control mt-3 mx-auto" id="myinput" placeholder="Live searching...." style="width:30%;">
+
+
+            <div class="container mb-5">
+                <h3 class="text-danger mt-5 text-center" id="para" style="display: none;">Not Found </h3>
+
+                <div class="row mt-3" id="card">
+
+                </div>
+
+            </div>
+
+
+            <script src="script2.js"></script>
+            <script src="suggestion.js"></script>
+
+</body>
+
+</html>

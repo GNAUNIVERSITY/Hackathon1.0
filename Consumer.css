@@ -1,0 +1,38 @@
+.navbar ul {
+    list-style: none;
+    padding-top: 6px;
+    padding-left: 50%;
+}
+
+.navbar ul li {
+    background: none;
+    border: 2px solid rgba(59, 233, 10, 0.258);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    float: right;
+    position: relative;
+    line-height: 35px;
+    border-radius: 10px;
+    padding-top: 0px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(3, 2, 2);
+    font-size: 13px;
+    display: block;
+    border-radius: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: none;
+    color: rgb(26, 255, 0);
+    border-radius: 10px;
+}
+
+.navbar ul ul {
+    display: none;
+    font-size: 18px;
+    position: absolute;
+}

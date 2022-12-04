@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Geolocation API</title>
+        <meta charset="UTF-8">
+        <title>HTML5 GPS</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="map.css">
+        <script src="https://kit.fontawesome.com/6d86f65b46.js" crossorigin="anonymous"></script> 
+    </head> 
+    <body>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="bot.html"> AI Assistant</a>
+                </li>
+                <li>
+                    <a href="map.html">Map</a>
+                </li>
+    
+                <li>
+                    <a href="index.html">Detection </a>
+                </li>
+                <li>
+                    <a href="Consumer.html">Consumer</a>
+                </li>
+                <li>
+                    <a href="CardSearching.html">Farmer</a>
+                </li> 
+        <div class="">
+       <h2>Find Your Location in below Map</h2> 
+    </div>
+       
+        <div class="ritik">
+        <button class="button" onclick="getlocation();"> Show Position</button> 
+        </div>
+        <div id="demo" style="width: 100%;padding-top: 10%; height: 420px;;"></div> 
+        
+       
+        <script src="https://maps.google.com/maps/api/js?sensor=false"> </script> 
+
+        
+        <script type="text/javascript"> 
+        function getlocation(){ 
+            if(navigator.geolocation){ 
+                navigator.geolocation.getCurrentPosition(showPos, showErr); 
+            }
+            else{
+                alert("Sorry! your Browser does not support Geolocation API")
+            }
+        } 
+        //Showing Current Position on Google Map
+        function showPos(position){ 
+            latt = position.coords.latitude; 
+            long = position.coords.longitude; 
+            var lattlong = new google.maps.LatLng(latt, long); 
+            var myOptions = { 
+                center: lattlong, 
+                zoom: 15, 
+                mapTypeControl: true, 
+                navigationControlOptions: {style:google.maps.NavigationControlStyle.SMALL} 
+                
+            } 
+            var maps = new google.maps.Map(document.getElementById("demo"), myOptions); 
+            var markers = 
+            new google.maps.Marker({position:lattlong, map:maps, title:"You are here!"}); 
+        } 
+
+        
+
+        //Handling Error and Rejection
+             function showErr(error) {
+              switch(error.code){
+              case error.PERMISSION_DENIED:
+             alert("User denied the request for Geolocation API.");
+              break;
+             case error.POSITION_UNAVAILABLE:
+             alert("USer location information is unavailable.");
+            break;
+            case error.TIMEOUT:
+            alert("The request to get user location timed out.");
+            break;
+           case error.UNKNOWN_ERROR:
+            alert("An unknown error occurred.");
+            break;
+           }
+        }        </script> 
+    </body> 
+</html>     

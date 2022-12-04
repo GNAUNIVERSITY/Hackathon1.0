@@ -1,0 +1,83 @@
+.navbar ul {
+    list-style: none;
+    padding-top: 6px;
+}
+
+.navbar ul li {
+    background: none;
+    border: 2px solid rgba(59, 233, 10, 0.258);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    float: right;
+    position: relative;
+    line-height: 35px;
+    border-radius: 10px;
+    padding-top: 0px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(3, 2, 2);
+    font-size: 13px;
+    display: block;
+    border-radius: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: none;
+    color: rgb(26, 255, 0);
+    border-radius: 10px;
+}
+
+.navbar ul ul {
+    display: none;
+    font-size: 18px;
+    position: absolute;
+}
+.body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:green;
+
+}
+
+#map {
+  height: 100%;
+}
+
+@media print {
+  html, body {
+    height: auto;
+  }
+
+  #map {
+    height: 650px;
+  }
+}
+.container3 p{
+    color: whitesmoke;
+}
+.container3 h3{
+    color: whitesmoke;
+
+}
+
+.manan{
+
+    position: absolute;
+    padding-left: 90vh;
+}
+
+.ritik{
+    
+    position: absolute;
+    padding-left: 10vh;
+    padding-top: 0vh;
+    padding-right: 80vh;
+}
+.button{
+    background-color: aquamarine;
+    border-radius: 20%;
+}
