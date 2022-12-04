@@ -1,74 +1,28 @@
-{% load static %}
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Better Bots Landing</title>
-
-    <link rel="stylesheet" href="../../static/LANDING PAGE/lp.css">
+<title>title</title>
 </head>
-<body style="overscroll-behavior: none;">
-    <div class="top_container">
-        <div class="left_top">
-            <a href="/">
-                <img src="https://drive.google.com/uc?export=download&id=11xsw9jgtCNGijJXphJ_Qn_7b334qXx4q" alt="project_logo" class="logo">
-            </a>
-        </div>
-
-        <div class="right_top">
-            <div class="project_desc">
-                <h1><strong>ASCAN</strong></h1>
-            </div>
-    
-            <div class="project_com">
-                <h2><strong>National Institute of Empowerment of Persons with Multiple Disabilities</strong></h2>
-            </div>
-        </div>
+<body>
+    <div>
+        <form action="" method="post">
+            {% csrf_token %}
+            <h3 id="h1">Enter Answer Copy Serial No. <input type="text" name="data" ></h3>
+            <input type="submit" value="SUBMIT">
+        </form>
     </div>
-
-    <div class="master_container">
-        <div class="container">
-            <div class="student_button">
-                <a id="student" class="btn-grad" href="file:///C:/Users/anike/OneDrive/Desktop/SIH-develop/webapp/betterbots/Smart-India-Hackathon/STUDENTS%20PAGE/home.html" target="_blank">
-                    <b>STUDENT</b>
-                </a>
-            </div>
-    
-            <div class="invigilator_button">
-                <a id="invigilator" class="btn-grad" href="/invigilator/" target="_blank">
-                    <b>INVIGILATOR</b>
-                </a>
-            </div>
-    
-            <div class="examiner_button">
-                <a id="examiner" class="btn-grad" href="/evaluator/" target="_blank">
-                    <b>EVALUATOR</b>
-                </a>
-            </div>
-
-            <div class="blue_line">
-                
-            </div>
-
-            <div class="team_name">
-                <h2>BETTER BOTS</h2>
-            </div>
-
-            <div class="team_members">
-                <img src="WhatsApp Image 2022-12-04 at 00.31.13" alt="Aniket_katiyar" class="Aniket">
-
-                <img src="../../static/LANDING PAGE/WhatsApp Image 2022-07-23 at 4.47.05 PM.jpeg" alt="Alok_sharma" class="Alok">
-
-                <img src="../../static/LANDING PAGE/WhatsApp Image 2022-07-23 at 4.48.37 PM.jpeg" alt="Aman_kumar" class="Aman">
-
-               
-
-            
-        </div>
-
+    <div>
+        {% if data %}
         
+        <h4>Your QR Code is:</h4>
+            <img src="{% static 'qrcode/test.png' %}">
+        {% endif %}
     </div>
-</body>
-</html>
+    <form action="video_reader" method="post">
+        {% csrf_token %}
+        <input type="submit"  value="SCAN   QR   CODE">
+    </form>
+
+</body></html>
