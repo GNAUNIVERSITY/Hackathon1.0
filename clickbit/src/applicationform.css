@@ -1,0 +1,30 @@
+.applicationBox{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+}
+.Apply-Box{
+    background-color: rgb(177, 146, 242);
+    padding: 30px;
+    border-radius: 40px;
+    
+}
+button{
+    width: 93%;
+}
+.applicationBox input{
+    padding: 8px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 500px;
+    margin: 10px 5px;
+}
+.Name , .Mobile, .Address ,.Service, .Description{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}

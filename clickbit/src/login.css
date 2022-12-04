@@ -1,0 +1,50 @@
+.LoginContainer{
+    background-color: rgb(50, 50, 50);
+    margin: auto;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    padding: 50px;
+    box-shadow: #878787cd 4px 10px 10px 10px;
+}
+.username ,.password{
+    font-size: 17px;
+    color: #fbc91b;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column ;
+}
+.username input, .password input{
+    font-size: 15px;
+    padding: 10px 20px;
+    width: 360px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+
+
+}
+.Signup{
+    margin-bottom: 50px;  
+    font-size: 30px ; 
+    color: #fbc91b;
+    
+}
+.LoginContainer p{
+    font-size: 15px;
+    color: rgb(45, 44, 44);
+    margin: 5px 0px;
+}
+.LoginContainer p:hover{
+    color: black;
+}
+.loginbtn button{
+    padding: 5px 10px;
+    margin: 20px 0px;
+    width: 100%;
+}

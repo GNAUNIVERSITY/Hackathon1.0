@@ -1,0 +1,36 @@
+.container_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 5px;
+}
+.container_title h5{
+    color: #a6891e;
+    font-size: 17px;
+}
+.container_title h2{
+    font-size: 30px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.thumbnail img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+.thumbnail img:hover{
+    transform: scale(1.1);
+}
+.container-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-name h1{
+    font-size: 18px;
+    margin-top: -50px;
+}

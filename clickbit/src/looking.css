@@ -1,0 +1,49 @@
+.Looking-container{
+    background-color: #9eaff3;
+    border-radius: 50px;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Looking-container h1{
+    font-size: 55px;
+    font-weight: 600;
+    margin: 50px;
+}
+.service-name-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-name{
+    padding: 15px 60px;
+    border-radius:35px;
+    margin: 25px;
+    cursor: pointer;
+    font-weight: 200;
+}
+.service-name h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.sn1{
+    background-color: rgb(245, 173, 245);
+}
+.sn2{
+    background-color: rgba(163, 250, 234, 0.762);
+}
+.sn3{
+    background-color: rgba(238, 249, 179, 0.762);
+}
+.sn4{
+    background-color: rgba(235, 158, 134, 0.762);
+}
+.sn5{
+    background-color: rgba(160, 146, 207, 0.762);
+}
+.service-name:hover{
+    border-radius: 35px 0px 35px 35px ;
+}
